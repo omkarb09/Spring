@@ -1,0 +1,10 @@
+select * from employee
+
+drop table employee
+
+desc empl
+select * from empl
+
+create table empl(emp_id number(7) Primary Key, emp_name Varchar2(45), emp_sal number(8,2))
+
+create sequence empl_emplid
